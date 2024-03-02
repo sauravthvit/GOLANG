@@ -1,7 +1,7 @@
-package main //First instruction to be written
+// package main //First instruction to be written
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	fmt.Println("Hello World")
-}
+// func main() {
+// 	fmt.Println("Hello World")
+// }
