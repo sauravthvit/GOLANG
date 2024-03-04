@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main2() {
+func main() {
 
 	var taxRate float64
 	var revenue float64
