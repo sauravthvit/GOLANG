@@ -1,4 +1,4 @@
-package main1
+package main
 
 import (
 	"fmt"
@@ -11,7 +11,7 @@ func main() {
 	// investmentAmount, years := 1000, 5.5
 	const inflationRate = 6.5
 	investmentAmount := 1000.0
-	expectedReturnRate := 5.5 //Shortcut of Autosetting of variable type
+	expectedReturnRate := 5.5 //Shortcut of Autosetting of variable type -> can only be done inside a function
 	years := 10.0
 
 	futureValue := investmentAmount * math.Pow(1+expectedReturnRate/100, years)
