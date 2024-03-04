@@ -26,4 +26,5 @@ func main() {
 	fmt.Println("Profit:", profit)
 	fmt.Println("Ratio:", ratio)
 	fmt.Printf("EBT: %v\nProfit: %v\n", ebt, profit) //You can use printf and multiple placeholders and write the variables in correct order.
+	//You can add other type of placeholders depending on your needs like %f gives you output with shorter decimal places, %.0f gives numbers with no decimal places. 
 }
