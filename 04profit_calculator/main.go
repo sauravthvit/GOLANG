@@ -25,6 +25,5 @@ func main() {
 	fmt.Println("EBT:", ebt)
 	fmt.Println("Profit:", profit)
 	fmt.Println("Ratio:", ratio)
+	fmt.Printf("EBT: %v\nProfit: %v\n", ebt, profit) //You can use printf and multiple placeholders and write the variables in correct order.
 }
-
-
