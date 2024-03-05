@@ -11,7 +11,7 @@ func main() {
 	// const inflationRate = 6.5 //Can't changed thereafter
 	var investmentAmount float64
 	var years float64
-	expectedReturnRate := 5.5 //Shortcut of Autosetting of variable type
+	expectedReturnRate := 5.5 //Shortcut of Autosetting of variable type - Only works when it is inside a function
 
 	outputText("Investment Amount: ")
 	//Scans the terminal for input
